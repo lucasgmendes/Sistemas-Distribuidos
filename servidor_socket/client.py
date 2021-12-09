@@ -3,7 +3,6 @@
 #!/usr/bin/python                      # This is client.py file
 
 import socket                          # Import socket module
-from time import sleep
 
 s = socket.socket()                    # Create a socket object
 host = socket.gethostname()            # Get local machine name
